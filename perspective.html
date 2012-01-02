@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+        <style type="text/css">
+            html {height: 100%}
+            body {height: 100%; margin: 0; padding: 0}
+            #map_canvas { height: 100%; width: 100% }
+        </style>
+        <script type="text/javascript"
+            src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA-94VWWxvX0H0AfJmbsEe-ylqT4VR-2uo&sensor=false">
+        </script>
+        <script type="text/javascript">
+            function initialize(){
+                var latlng = new google.maps.LatLng(25.482951,150.253906);
+                var myOptions = {
+                    zoom: 3,
+                    center: latlng,
+                    disableDefaultUI: true,
+                    mapTypeId: google.maps.MapTypeId.SATELLITE
+                };
+                var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+                
+                var latlng1 = new google.maps.LatLng(22.492257,88.374023);
+                var marker1 = new google.maps.Marker({
+                                                     position: latlng1,
+                                                     map:map,
+                                                     title: "Kolkata"
+                                                     });
+            }
+        </script>
+    </head>
+    
+    <body onload="initialize()">
+        <div id="map_canvas"></div>
+    </body>
+</html>
+            
