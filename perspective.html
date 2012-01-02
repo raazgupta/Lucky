@@ -21,12 +21,20 @@
                 };
                 var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
                 
+                // This section needs to be repeated for each entry
                 var latlng1 = new google.maps.LatLng(22.492257,88.374023);
                 var marker1 = new google.maps.Marker({
                                                      position: latlng1,
                                                      map:map,
                                                      title: "Kolkata"
                                                      });
+                
+                var infowindow1 = new google.maps.InfoWindow({
+                                                             content: "Something about Kolkata"
+                                                             });
+                google.maps.event.addListener(marker1, 'click', function(){
+                                              infowindow1.open(map, marker1);
+                                              });
             }
         </script>
     </head>

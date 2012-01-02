@@ -132,7 +132,7 @@
 		<string>IDEActiveWorkspaceTabController</string>
 		<string>IDEWindowToolbarIsVisible</string>
 		<string>IDEWindowTabBarIsVisible</string>
-		<string>{{15, 91}, {1124, 1077}}</string>
+		<string>{{15, 91}, {1586, 1077}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2096,7 +2096,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>432</real>
+		<real>663</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2126,7 +2126,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>431</real>
+		<real>662</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2195,7 +2195,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>432</real>
+		<real>663</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2225,7 +2225,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>431</real>
+		<real>662</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2567,9 +2567,9 @@
 		<string>PrimaryDocumentVisibleCharacterRange</string>
 		<string>HideAllIssues</string>
 		<string>PrimaryDocumentSelectedCharacterRange</string>
-		<real>347173993.81825799</real>
-		<string>{0, 1506}</string>
-		<string>{1297, 0}</string>
+		<real>347174779.732072</real>
+		<string>{0, 2019}</string>
+		<string>{1031, 0}</string>
 		<string>Xcode.IDEKit.EditorDocument.SourceCode</string>
 		<dict>
 			<key>$class</key>
@@ -2603,7 +2603,7 @@
 				</dict>
 			</array>
 		</dict>
-		<string>{{0, 0}, {864, 979}}</string>
+		<string>{{0, 0}, {1326, 979}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -3258,7 +3258,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>864</real>
+		<real>1326</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -3497,9 +3497,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>347173993.81778401</real>
-		<string>{0, 1506}</string>
-		<string>{1297, 0}</string>
+		<real>347174779.73158801</real>
+		<string>{0, 2019}</string>
+		<string>{1031, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
