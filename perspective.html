@@ -47,7 +47,7 @@
                 var marker1 = new google.maps.Marker({
                                                      position: latlng1,
                                                      map:map,
-                                                     title: "Kolkata"
+                                                     title: "North Korea"
                                                      });
                 
                 var infowindow1 = new google.maps.InfoWindow({
@@ -57,7 +57,20 @@
                                               infowindow1.open(map, marker1);
                                               });
                 
+                //
+                var latlng2 = new google.maps.LatLng(14.583583,121.014404);
+                var marker2 = new google.maps.Marker({
+                                                     position: latlng2,
+                                                     map:map,
+                                                     title: "Philippines"
+                                                     });
                 
+                var infowindow2 = new google.maps.InfoWindow({
+                                                             content: "<div id='title'><p>More than 11 million Filipinos have left their homes to find a better life for their families</p><p><a href='http://www.youtube.com/watch?v=x_9fQEqZCWs'>Link</a></p></div>"
+                                                             });
+                google.maps.event.addListener(marker2, 'click', function(){
+                                              infowindow2.open(map, marker2);
+                                              });
                 
             }
         </script>
