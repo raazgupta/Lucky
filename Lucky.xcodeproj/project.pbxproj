@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		AD80062E14AEE75600E07527 /* perspective.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = perspective.html; sourceTree = "<group>"; };
+		AD80062E14AEE75600E07527 /* perspective.php */ = {isa = PBXFileReference; path = perspective.php; sourceTree = "<group>"; };
+		ADC4D09614CAB53D0041281D /* test.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = test.php; sourceTree = "<group>"; };
+		ADC4D09714CACB880041281D /* enter_perspective.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = enter_perspective.php; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.html; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		AD80062514AEE6C800E07527 = {
 			isa = PBXGroup;
 			children = (
-				AD80062E14AEE75600E07527 /* perspective.html */,
+				ADC4D09714CACB880041281D /* enter_perspective.php */,
+				ADC4D09614CAB53D0041281D /* test.php */,
+				AD80062E14AEE75600E07527 /* perspective.php */,
 			);
 			sourceTree = "<group>";
 		};
