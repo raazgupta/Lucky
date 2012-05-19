@@ -8,12 +8,7 @@
     $db_found = mysql_select_db($database, $db_handle);
     $title = $_POST['title'];
     $description = $_POST['description'];
-    $location = $_POST['latlng'];
-    print $latitude;
-    
-    
-    
-    
+    $location = $_POST['location'];
     $link = $_POST['link'];
     
     if ($db_found) {
